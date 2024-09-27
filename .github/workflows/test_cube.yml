@@ -28,4 +28,5 @@ jobs:
           cd cubeit
           python -m http.server 8000 & 
           cd ..
+          cd cubeit
           pytest -v
